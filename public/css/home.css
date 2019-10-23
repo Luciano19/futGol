@@ -1,0 +1,417 @@
+/* tela de jogos/home */
+.teste {
+	background-color: #222d32;
+	padding: 30px 0;
+	height: 1000px;
+}
+
+.ticket {
+	background-color:#F47F27;
+	padding: 5pxpx;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.ticket h3 {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.ticket h5 {
+	color: #fff;
+	line-height: 5px;
+}
+
+#titulo{
+	color: #fff;
+	text-align: center;
+	padding-bottom: 30px;
+	font-family: arial;
+}
+
+.ticket img {
+	margin: 0 10px;
+}
+
+.times h2 {
+	color: #fff;
+	font-weight: bold;
+}
+
+.botao {
+	background-color: #00a65a;
+	border-radius: 10px;
+	width: 200px;
+	margin: 20 auto 10;
+}
+
+#botao-comprar {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px;
+}
+
+/* Tela perfil*/
+
+#boxperfil{
+	margin:0 auto;
+	width:100px;
+	height:100px;
+}
+#foto{
+	width: 320px;
+	margin: 0 auto;
+}
+.vai{
+	border: 5px;
+	border-style: solid;
+	border-color: #F47F27;	
+	width: 320px;
+	border-radius: 180px;
+	float: center;
+	margin-left: 300px;
+	z-index: 500;
+	margin: 0 auto;
+}
+.dados{
+	color: white;
+	text-align: center;
+}
+
+#linha{
+	background-color: #F47F27;
+	height: 5px;
+	width: 900px;
+	margin: 0 auto;
+} 
+.editar{
+	color: white;
+	text-align: left;
+}
+
+/* tela login */
+#voltar1{
+	color:white;
+	height: 80px;
+	width: 1343px;
+	background-color: #181f21;
+}
+#voltar1 img{
+	float:left;
+}
+#voltar1 h1{
+	margin-left: 600px;
+	padding-top: 12px;
+}
+#corpologin{
+	background-color: #222d32;
+}
+#imglogo{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+#imglogo img{
+	width: 200px;
+	margin: 0 auto;
+}
+
+#login{
+	text-align: center;
+}
+.entrada{
+	height: 35px;
+	width: 260px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	border-radius: 5px;
+}
+
+#botaoacessar{
+	background-color: #00a65a;
+	border-radius: 10px;
+	border: none;
+	height: 40px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top:20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+#esqueceu{
+	color:white;
+	margin-left: 100px;
+}
+
+/* Tela welcome/futgol */ 
+#telawelcome{
+	background-color: #F47F27;	
+}
+footer{
+	font-size: 20px;
+	position: absolute;
+	bottom: 0;
+}
+footer a:visited,a:link{
+	text-decoration: none;
+	color: white;
+}
+
+/* Tela registro*/ 
+#voltar{
+	color:white;
+	height: 80px;
+	width: 1343px;
+	background-color: #181f21;
+}
+#voltar img{
+	float:left;
+}
+#voltar h1{
+	margin-left: 580px;
+	padding-top: 12px;
+}
+#corporegistro{
+	background-color: #222d32;
+	
+}
+.entradaregistro,select{
+	height: 35px;
+	width: 460px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	border-radius: 5px;
+
+}
+#imgupload{
+	color:#fff; font-size: 20px;
+	height: 35px;
+	width: 460px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #181f21;
+	border-radius: 5px;
+
+}
+
+#registro label{
+	
+	margin-right: 32px;
+	text-align: left;	
+	width: 428px;
+	color: white;
+}
+#registro{
+	background: #222d32;
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+}
+
+#imglogo1{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+#imglogo1 img{
+	padding-top: 50px;
+	width: 200px;
+	margin: 0 auto;
+}
+.msg1{
+	margin-left: 20px;
+}
+
+#botaoregistrar{
+	background-color: #00a65a;
+	border-radius: 10px;
+	border: none;
+	height: 40px;
+	width: 120px;
+	margin-left: 340px;
+	margin-top:20px;
+	color: #fff;
+	
+	font-weight: bold;
+	
+}
+
+/* Tela compra 1 */
+#setores h3{
+	margin-top: 0px;
+}
+#setores {
+	margin-top: 50px;
+}
+#linha1{
+	background-color: white;
+	height: 5px;
+	width: 200px;
+	position: left;
+} 
+#compra1info img{
+	text-align: left;
+	width: 300px;
+}
+/* Tela compra 2 */
+#linha2{
+	background-color: #222d32;
+	height: 5px;
+	width: 200px;
+	position: left;
+} 
+.testecompra2 {
+	background-color: #222d32;
+	padding: 30px 0;
+	height: 1000px;
+}
+
+.ticketcompra2 {
+	background-color:#F47F27;
+	padding: 5pxpx;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+#valores {
+	font-size: 20px;
+	color: white;
+	float:left;
+	
+
+}
+#quantidade{
+	margin-top: 25px;
+	
+		
+}
+#valores label{
+	margin-left: 20px;
+	
+}
+.labelvalores{
+	margin-top:10px;
+}
+#quantidade input::-webkit-input-placeholder {
+	font-size: 15px;
+	 color:black; 
+}
+#quantidade input{
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float:right;
+	height: 30px;
+	width: 100px;
+}
+#botaocompra2 label{
+	font-size: 30px;
+	margin-left:850px;
+	color: white;
+	margin-top: 20px;
+}
+#botaocomprabotao2{
+	float: left;
+	padding: 5pxpx;
+	background-color: #00a65a;
+	border-radius: 10px;
+	border: none;
+	height: 40px;
+	width: 180px;
+	margin-left:845px;
+	margin-top:20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+/* Tela membros */
+#corpomembros{
+	background-color: #222d32;
+}
+#membro1 img{
+	margin-left:15px;
+	float: left;
+	margin-top: 10px;
+	width: 150px;
+	border-radius: 180px;
+}
+#infomembro h2{
+	font-size: 30px;
+	margin-left: 250px;
+	margin-top: 8px;
+	color:white;
+}
+#infomembro img{
+	margin-top: 20px;
+	margin-left: 15px;	
+}
+#infomembro p{
+	margin-left: 250px;
+	margin-top: 38px;
+	color:white;
+}
+#membrosparte1{
+	float:left;
+}
+#membrosparte2{
+
+	margin-left:800px;
+}
+/* tela pagamento*/
+#pagamento{
+	border-radius: 10px;
+	background: #F47F27;
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+	height: 500px;
+	
+}
+.nav-item{
+	width: 200px;
+	color: white;
+	height: 50px;
+
+}
+.entradapagamento{
+	border-radius: 10px;
+	border-style: none;
+	width: 500px;
+	height: 50px;
+	margin: 5px 0px;
+
+}
+.mesanocod{
+	border-radius: 10px;
+	border-style: none;
+	width: 100px;
+	height: 50px;
+	margin-left: 40px ;
+	margin-right: 45px;
+}
+#codseg{
+	width: 120px;
+}
+#botaopagamento{
+	
+	padding: 5pxpx;
+	background-color: #00a65a;
+	border-radius: 10px;
+	border: none;
+	height: 40px;
+	width: 180px;
+	margin: auto;
+	margin-top:50px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
