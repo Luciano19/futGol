@@ -13,7 +13,7 @@ class CreateJogoTable extends Migration
      */
     public function up()
     {
-        Schema::create('jogo', function (Blueprint $table) {
+        Schema::create('jogos', function (Blueprint $table) {
             $table->bigIncrements('id'); 
             $table->string('time1'); 
             $table->string('time2'); 
@@ -21,8 +21,8 @@ class CreateJogoTable extends Migration
             $table->string('foto2');
             $table->DateTime('horario');
             $table->date('data');
-            $table->BigInteger('estadio_id');
-            $table->foreign('estadio_id')->references('id')->on('estadio');
+            $table->unsignedBigInteger('estadio_id');
+            $table->foreign('estadio_id')->references('id')->on('estadios');
             $table->text('localização');
             $table->timestamps();
         });
@@ -35,6 +35,6 @@ class CreateJogoTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jogo');
+        Schema::dropIfExists('jogos');
     }
 }

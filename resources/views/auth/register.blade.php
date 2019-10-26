@@ -70,6 +70,7 @@
             <input class="entradaregistro" name="email" required="required" type="email" placeholder=" E-mail"/><br>
             <input class="entradaregistro" name="cpf" required="required" type="password" placeholder=" Senha"/><br>
             <input class="entradaregistro" name="data" required="required" type="password" placeholder=" Confirmar senha"/><br>
+            <label>Foto</label>
             <input id="imgupload" name="img" type="file" placeholder="sss">
             
             <div class="check">

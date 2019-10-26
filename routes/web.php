@@ -20,7 +20,6 @@ Auth::routes();
 Route::get('/home', function() {
     return view('home');
 })->name('home');
-//->middleware('auth')
 
 
 Route::get('/ticket', function() {
@@ -30,24 +29,36 @@ Route::get('/ticket', function() {
 Route::get('/account', function() {
     return view('account');
 })->name('account');
+
 Route::get('/compra1', function() {
     return view('compra1');
 })->name('account');
+
 Route::get('/comprado1', function() {
     return view('comprado1');
 })->name('account');
+
 Route::get('/compra2', function() {
     return view('compra2');
 })->name('account');
+
 Route::get('/membros', function() {
     return view('membros');
 })->name('account');
+
 Route::get('/recuperarsenha', function() {
     return view('recuperarsenha');
 })->name('account');
+
 Route::get('/pagamento', function() {
     return view('pagamento');
 })->name('account');
 
+Route::get('/cadastro-jogos', function() {
+    return view('cadastro-jogos');
+})->name('cadastro-jogos');
 
+Route::get('/exercicio', function() {
+    return view('exercicio');
+})->name('account');
 

@@ -97,7 +97,7 @@
 #voltar1{
 	color:white;
 	height: 80px;
-	width: 1343px;
+	width: 100%;
 	background-color: #181f21;
 }
 #voltar1 img{
@@ -262,12 +262,16 @@ footer a:visited,a:link{
 	width: 300px;
 }
 /* Tela compra 2 */
-#linha2{
+
+/*
+#linha2 {
 	background-color: #222d32;
 	height: 5px;
 	width: 200px;
 	position: left;
 } 
+*/
+
 .testecompra2 {
 	background-color: #222d32;
 	padding: 30px 0;
@@ -277,9 +281,11 @@ footer a:visited,a:link{
 .ticketcompra2 {
 	background-color:#F47F27;
 	padding: 5pxpx;
-	margin: 0 auto;
+	margin: 4px auto;
 	border-radius: 10px;
+
 }
+
 #valores {
 	font-size: 20px;
 	color: white;
@@ -388,6 +394,7 @@ footer a:visited,a:link{
 	height: 50px;
 	margin: 5px 0px;
 
+
 }
 .mesanocod{
 	border-radius: 10px;
@@ -414,4 +421,12 @@ footer a:visited,a:link{
 	text-transform: uppercase;
 	font-weight: bold;
 	
+}
+#randomboleto{
+	text-align: center;
+}
+.boleto	{
+	text-align: left;
+	color:white;
+	font-size: 30px;
 }

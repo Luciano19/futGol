@@ -13,12 +13,12 @@ class CreateEstadioTable extends Migration
      */
     public function up()
     {
-        Schema::create('estadio', function (Blueprint $table) {
+        Schema::create('estadios', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('nome');
-            $table->string('foto_estadio');
+            $table->text('foto_estadio');
             $table->BigInteger('capacidade');
-            $table->BigInteger('endereco');   
+            $table->text('endereco');   
             $table->timestamps();
         });
     }
@@ -30,6 +30,6 @@ class CreateEstadioTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('estadio');
+        Schema::dropIfExists('estadios');
     }
 }

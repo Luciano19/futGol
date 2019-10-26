@@ -64,16 +64,21 @@
 		    			<a id="botaopagamento" onclick="alert('Compra efetuada com sucesso!!')" class="btn btn-lg" href="/home" role="button" id="botao-comprar">Finalizar</a>
 				    </div>
                 </div>
+
                 <div class="tab-pane fade " id="nav-boleto" role="tabpane1" aria-labelledby="nav-boleto-tab">
                     <?php
-                         $val=rand(1,1321312312231412412);
+                         $val1= rand(1,1314392412);
+                         $val2=rand(1,1314392413);
+                         $val= $val1.$val2;
+
                         
                     ?>
-                    <p>O boleto foi enviado por email</p>
-                    <p>Código do Boleto :</p>
+                    <p class="boleto">O boleto foi enviado por email</p>
+                    <p class="boleto">Código do Boleto :</p>
 
-                    <h1 id="valorboleto"><?= $val ?><h1>
-                    <p>O boleto deve ser pago em até 3 dias úteis</p>
+                    <h1 class="boleto" id="randomboleto"><?= $val ?><h1>
+                    <p class="boleto">O boleto deve ser pago em até 3 dias úteis</p>
+
                     <div id="botaocompra2">	
 		    			<a id="botaopagamento" onclick="alert('Compra efetuada com sucesso!!')" class="btn btn-lg" href="/home" role="button" id="botao-comprar">Finalizar</a>
 				    </div>

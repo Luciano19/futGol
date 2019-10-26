@@ -34,12 +34,12 @@
                         
                         <h3> Estádio	</h3>
                     </div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1571594044057!6m8!1m7!1sF%3A-I53ltLcSbDU%2FVAt3o23-jxI%2FAAAAAAAAAAA%2FZm4Lj7yrbJs!2m2!1d-22.91313805566063!2d-43.23031111099294!3f4.2!4f0!5f0.7820865974627469" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>	<div id="setores">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1571594044057!6m8!1m7!1sF%3A-I53ltLcSbDU%2FVAt3o23-jxI%2FAAAAAAAAAAA%2FZm4Lj7yrbJs!2m2!1d-22.91313805566063!2d-43.23031111099294!3f4.2!4f0!5f0.7820865974627469" width="400" height="300" frameborder="0" style="border: 6px solid #222d32;" allowfullscreen="" ></iframe>	<div id="setores">
                         
                         <h3> Localização	</h3>
 
                     </div>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14700.025245228044!2d-43.23031111099294!3d-22.91313805566063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e5dba888b0d%3A0xf5f33188ee6274e5!2zTWFyYWNhbsOj!5e0!3m2!1spt-BR!2sbr!4v1571593983599!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14700.025245228044!2d-43.23031111099294!3d-22.91313805566063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e5dba888b0d%3A0xf5f33188ee6274e5!2zTWFyYWNhbsOj!5e0!3m2!1spt-BR!2sbr!4v1571593983599!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border: 6px solid #222d32;" allowfullscreen=""></iframe>
 
 
 

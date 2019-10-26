@@ -22,9 +22,9 @@
         </div>
         <div id="infomembro">
             <h2> Geovane Almeida</h2>
-                    <p><a href="#"><img src="../img/1.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/2.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/3.png"  width="60px" href="/"></p></a> 
+                    <p><a target="_blank" href="#"><img src="../img/1.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="#"><img src="../img/2.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="#"><img src="../img/3.png"  width="60px" href="/"></p></a> 
         </div>
 
         <div id="membro1">
@@ -32,9 +32,9 @@
         </div>
         <div id="infomembro">
             <h2> Isnar Filho</h2>
-                    <p><a href="#"><img src="../img/1.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/2.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/3.png"  width="60px" href="/"></p></a>        
+                    <p><a target="_blank" href="#"><img src="../img/1.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="https://www.instagram.com/isnar_filho/"><img src="../img/2.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="#"><img src="../img/3.png"  width="60px" href="/"></p></a>        
         </div>
 
         <div id="membro1">
@@ -42,9 +42,9 @@
         </div>
         <div id="infomembro">
             <h2> Jociel Jesus</h2>        
-                    <p><a href="#"><img src="../img/1.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/2.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/3.png"  width="60px" href="/"></p></a>        
+                    <p><a target="_blank"href="https://github.com/jocieljesus"><img src="../img/1.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="https://www.instagram.com/jocieldejesus/"><img src="../img/2.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5575998227792&text=&source=&data="><img src="../img/3.png"  width="60px" href="/"></p></a>        
         </div>
     </div>
 
@@ -54,9 +54,9 @@
         </div>
         <div id="infomembro">
             <h2> Júnior Santos</h2>        
-                    <p><a href="#"><img src="../img/1.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/2.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/3.png"  width="60px" href="/"></p></a>        
+                    <p><a target="_blank" href="https://github.com/JuniorJWJ"><img src="../img/1.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="https://www.instagram.com/juniorjwjj/"><img src="../img/2.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5575999943121&text=envie%20uma%20menssagem"><img src="../img/3.png"  width="60px" href="/"></p></a>        
         </div>
 
         <div id="membro1">
@@ -64,9 +64,9 @@
         </div>
         <div id="infomembro">
             <h2> Kelisson Coelho</h2>        
-                    <p><a href="#"><img src="../img/1.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/2.png"  width="60px" href="/"></a>
-                    <a href="#"><img src="../img/3.png"  width="60px" href="/"></p></a>        
+                    <p><a target="_blank" href="#"><img src="../img/1.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="#"><img src="../img/2.png"  width="60px" href="/"></a>
+                    <a target="_blank" href="#"><img src="../img/3.png"  width="60px" href="/"></p></a>        
         </div>
         
     </div>

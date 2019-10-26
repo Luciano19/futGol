@@ -30,7 +30,7 @@
 						
 					</div>							
 				</div>
-				<div id="linha2"></div>
+				
 
 				<div class="col-md-10 ticketcompra2">
 					<div class="col-md-3" id="valores">
@@ -44,7 +44,7 @@
 						
 					</div>							
 				</div>
-				<div id="linha2"></div>
+				
 
 				<div class="col-md-10 ticketcompra2">
 					<div class="col-md-3" id="valores">
@@ -58,8 +58,7 @@
 						
 					</div>							
 				</div>
-				<div id="linha2"></div>
-				<div id="linha2"></div>
+				
 
 				<div class="col-md-10 ticketcompra2">
 					<div class="col-md-3" id="valores">
@@ -73,7 +72,7 @@
 						
 					</div>							
 				</div>
-				<div id="linha2"></div>
+				
 
 				<div class="col-md-10 ticketcompra2">
 					<div class="col-md-3" id="valores">
@@ -87,8 +86,7 @@
 						
 					</div>							
 				</div>
-				<div id="linha2"></div>
-				<div id="linha2"></div>
+				
 
 				<div class="col-md-10 ticketcompra2">
 					<div class="col-md-3" id="valores">
@@ -102,7 +100,6 @@
 						
 					</div>							
 				</div>
-				<div id="linha2"></div>
 				
 				<div class="col-md-10 ticketcompra2">
 					<div class="col-md-3" id="valores">
@@ -116,7 +113,7 @@
 						
 					</div>							
 				</div>
-				<div id="linha2"></div>
+				
 
 				<div class="col-md-10 ticketcompra2">
 					<div class="col-md-3" id="valores">
@@ -130,7 +127,7 @@
 						
 					</div>							
 				</div>
-				<div id="linha2"></div>
+				
 				
 				<div id="botaocompra2">
 						<label>Total: R$ 200</label>	
