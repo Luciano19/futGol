@@ -61,6 +61,7 @@ Route::get('/pagamento', function() {
 Route::get('/exercicio', function() {
     return view('exercicio');
 })->name('account');
+
 Route::get('/jogos', "JogoController@store")->name('jogo.store');
 Route::get('/jogo/cadastro', "JogoController@create")->name('jogos.create');
 Route::get('/jogo', "JogoController@index")->name('jogos.index');

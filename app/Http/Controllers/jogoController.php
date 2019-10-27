@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Jogo;
 use App\Estadio;
+use App\Time;
 use Illuminate\Http\Request;
 
 class jogoController extends Controller
@@ -16,8 +17,9 @@ class jogoController extends Controller
     public function index()
     {
         $jogos = Jogo::all();
+        $equipes = Time::all();
         $estadio = Estadio::all();
-        return view('home', compact('jogos, estadio'));
+        return view('home', compact('jogos, estadio, equipes'));
     }
     /**
      * Show the form for creating a new resource.
@@ -26,8 +28,9 @@ class jogoController extends Controller
      */
     public function create()
     {
+        $equipes = Time::all();
         $estadio = Estadio::all();
-        return view('cadastro-jogos', compact('estadio'));
+        return view('cadastro-jogos', compact('estadio', 'equipes'));
     }
     /**
      * Store a newly created resource in storage.

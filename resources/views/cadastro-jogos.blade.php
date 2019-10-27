@@ -23,56 +23,32 @@
             <label>Defina os times</label><br>
 
             <select id="time1" class="form-control" name="time1">
-                <option value="#" selected>Time 1</option>
-                <option value="AVA">AVA</option>
-                <option value="BA">BA</option>
-                <option value="BOT">BOT</option>
-                <option value="CAM">CAM</option>
-                <option value="CAP">CAP</option>
-                <option value="CEA">CEA</option>
-                <option value="CHA">CHA</option>
-                <option value="COR">COR</option>
-                <option value="CRU">CRU</option>
-                <option value="CSA">CSA</option>
-                <option value="FLA">FLA</option>
-                <option value="FLU">FLU</option>
-                <option value="FOR">FOR</option>
-                <option value="GOI">GOI</option>
-                <option value="GRE">GRE</option>
-                <option value="INT">INT</option>
-                <option value="PAL">PAL</option>
-                <option value="SAN">SAN</option>
-                <option value="SAO">SAO</option>
-                <option value="VAS">VAS</option>
+                @foreach($equipes as $tim)
+                <option value={{$tim->id}}>{{$tim->nome}}</option>
+                @endforeach
+            </select><br><br>
+
+            <select id="foto1" class="form-control" name="foto1">
+                @foreach($equipes as $tim)
+                <option value={{$tim->foto}}>{{$tim->foto}}</option>
+                @endforeach
             </select><br><br>
 
             <select id="time2" class="form-control" name="time2">
-                <option value="#" selected>Time 2</option>
-                <option value="AVA">AVA</option>
-                <option value="BA">BA</option>
-                <option value="BOT">BOT</option>
-                <option value="CAM">CAM</option>
-                <option value="CAP">CAP</option>
-                <option value="CEA">CEA</option>
-                <option value="CHA">CHA</option>
-                <option value="COR">COR</option>
-                <option value="CRU">CRU</option>
-                <option value="CSA">CSA</option>
-                <option value="FLA">FLA</option>
-                <option value="FLU">FLU</option>
-                <option value="FOR">FOR</option>
-                <option value="GOI">GOI</option>
-                <option value="GRE">GRE</option>
-                <option value="INT">INT</option>
-                <option value="PAL">PAL</option>
-                <option value="SAN">SAN</option>
-                <option value="SAO">SAO</option>
-                <option value="VAS">VAS</option>
+                @foreach($equipes as $tim)
+                <option value={{$tim->id}}>{{$tim->nome}}</option>
+                @endforeach
+            </select><br><br>
+
+            <select id="foto2" class="form-control" name="foto2">
+                @foreach($equipes as $tim)
+                <option value={{$tim->foto}}>{{$tim->foto}}</option>
+                @endforeach
             </select><br><br>
 
             <label>Defina o estádio</label><br>
 
-            <select class="form-control" name="estadio" id="estadio">
+            <select class="form-control" name="estadio_id" id="estadio_id">
                 @foreach($estadio as $estad)
                 <option value={{$estad->id}}>{{$estad->nome}}</option>
                 @endforeach
@@ -110,12 +86,6 @@
                 <option value="SE">Sergipe</option>
                 <option value="TO">Tocantins</option>
             </select><br><br>
-            <label>Foto 1</label><br>
-            <input class="entradaregistro" name="foto1" required="required" type="text" /><br>
-
-            <label>Foto 2</label><br>
-            <input class="entradaregistro" name="foto2" required="required" type="text" /><br>>
-
             <label>Data do jogo</label><br>
             <input class="entradaregistro" name="data" required="required" type="date" /><br>
 

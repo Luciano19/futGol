@@ -14,15 +14,17 @@ class CreateJogoTable extends Migration
     public function up()
     {
         Schema::create('jogos', function (Blueprint $table) {
-            $table->bigIncrements('id'); 
-            $table->string('time1'); 
-            $table->string('time2'); 
+            $table->bigIncrements('id');
             $table->string('foto1');
             $table->string('foto2');
-            $table->DateTime('horario');
+            $table->time('horario');
             $table->date('data');
+            $table->unsignedBigInteger('time1');
+            $table->unsignedBigInteger('time2');
             $table->unsignedBigInteger('estadio_id');
             $table->foreign('estadio_id')->references('id')->on('estadios');
+            $table->foreign('time1')->references('id')->on('times');
+            $table->foreign('time2')->references('id')->on('times');
             $table->text('localizacao');
             $table->timestamps();
         });
