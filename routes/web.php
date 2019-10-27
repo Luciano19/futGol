@@ -54,11 +54,14 @@ Route::get('/pagamento', function() {
     return view('pagamento');
 })->name('account');
 
-Route::get('/cadastro-jogos', function() {
+/*Route::get('/cadastro-jogos', function() {
     return view('cadastro-jogos');
-})->name('cadastro-jogos');
+})->name('cadastro-jogos');*/
 
 Route::get('/exercicio', function() {
     return view('exercicio');
 })->name('account');
 
+Route::get('/jogos', "JogoController@store")->name('jogo.store');
+Route::get('/jogo/cadastro', "JogoController@create")->name('jogos.create');
+Route::get('/jogo', "JogoController@index")->name('jogos.index');

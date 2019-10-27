@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{ asset('css/home.css') }}" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
     <title>Document</title>
 </head>
+
 <body id="corporegistro">
     <div id="voltar">
-        <a href="/" ><img src="../img/seta.png"  width="80px" href="/"></a>
-        <h1 >Cadastro de jogos   </h1>
+        <a href="/"><img src="../img/seta.png" width="80px" href="/"></a>
+        <h1>Cadastro de jogos </h1>
     </div>
     <div id="registro">
-        <form  action="{{route(jogo.store)}}" method="GET">
-
+        <form action="/jogos" method="GET" enctype="multipart/form-data">
+            @csrf
             <label>Defina os times</label><br>
 
-            <select name="time">
+            <select id="time1" class="form-control" name="time1">
                 <option value="#" selected>Time 1</option>
                 <option value="AVA">AVA</option>
                 <option value="BA">BA</option>
@@ -44,7 +46,7 @@
                 <option value="VAS">VAS</option>
             </select><br><br>
 
-            <select name="time">
+            <select id="time2" class="form-control" name="time2">
                 <option value="#" selected>Time 2</option>
                 <option value="AVA">AVA</option>
                 <option value="BA">BA</option>
@@ -70,31 +72,16 @@
 
             <label>Defina o estádio</label><br>
 
-            <select name="estadio">
-                <option value="#" selected>Estádio</option>
-                <option value="allianzparque">Allianz Parque</option>
-                <option value="arenaconda">Arena Condá</option>
-                <option value="arenagremio">Arena Grêmio</option>
-                <option value="baixada">Baixada</option>
-                <option value="beirario">Beira Rio</option>
-                <option value="castelao">Castelão</option>
-                <option value="engenhao">Engenhão</option>
-                <option value="fontenova">Fonte Nova</option>
-                <option value="independencia">Independência</option>
-                <option value="itaquerao">Itaquerão</option>
-                <option value="maracana">Maracanã</option>
-                <option value="mineirao">Mineirão</option>
-                <option value="morumbi">Morumbi</option>
-                <option value="reipele">Rei Pelé</option>
-                <option value="ressacada">Ressacada</option>
-                <option value="saojanuario">São Januário</option>
-                <option value="vilabelmiro">Vila Belmiro</option>
-            </select><br><br>
+            <select class="form-control" name="estadio" id="estadio">
+                @foreach($estadio as $estad)
+                <option value={{$estad->id}}>{{$estad->nome}}</option>
+                @endforeach
+            </select>
 
             <label>Defina o estado</label><br>
-           
-            <select name="cidade">
-                <option value="#" >Estado</option>
+
+            <select id="localizacao" class="form-control" name="localizacao">
+                <option value="#">Estado</option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
@@ -117,49 +104,33 @@
                 <option value="RN">Rio Grande do Norte</option>
                 <option value="RS">Rio Grande do Sul</option>
                 <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option> 
+                <option value="RR">Roraima</option>
                 <option value="SC">Santa Catarina</option>
                 <option value="SP">São Paulo</option>
                 <option value="SE">Sergipe</option>
                 <option value="TO">Tocantins</option>
             </select><br><br>
+            <label>Foto 1</label><br>
+            <input class="entradaregistro" name="foto1" required="required" type="text" /><br>
+
+            <label>Foto 2</label><br>
+            <input class="entradaregistro" name="foto2" required="required" type="text" /><br>>
+
             <label>Data do jogo</label><br>
-            <input class="entradaregistro" name="datajogo" required="required" type="date" /><br>
+            <input class="entradaregistro" name="data" required="required" type="date" /><br>
+
             <label>Horário do jogo</label><br>
-            <input class="entradaregistro" name="horajogo" required="required" type="time" /><br>
-            
-           
-            
-            
-            
+            <input class="entradaregistro" name="horario" required="required" type="time" /><br>
 
-            <input id="botaoregistrar" onclick="alert('Jogo cadastrado com sucesso!!')" name="acessar" type="submit" value="Сadastrar">
 
+
+
+
+
+            <button class="btn btn-primary" type="submit">Cadastrar!</button>
         </form>
     </div>
-   
+
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

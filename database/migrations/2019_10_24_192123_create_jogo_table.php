@@ -23,7 +23,7 @@ class CreateJogoTable extends Migration
             $table->date('data');
             $table->unsignedBigInteger('estadio_id');
             $table->foreign('estadio_id')->references('id')->on('estadios');
-            $table->text('localização');
+            $table->text('localizacao');
             $table->timestamps();
         });
     }

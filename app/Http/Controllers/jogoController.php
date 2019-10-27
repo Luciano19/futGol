@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Jogo;
+use App\Estadio;
 use Illuminate\Http\Request;
 
 class jogoController extends Controller
@@ -14,7 +16,8 @@ class jogoController extends Controller
     public function index()
     {
         $jogos = Jogo::all();
-        return view('home', compact('jogos'));
+        $estadio = Estadio::all();
+        return view('home', compact('jogos, estadio'));
     }
     /**
      * Show the form for creating a new resource.
@@ -23,7 +26,8 @@ class jogoController extends Controller
      */
     public function create()
     {
-        return view('cadastrar_jogos');
+        $estadio = Estadio::all();
+        return view('cadastro-jogos', compact('estadio'));
     }
     /**
      * Store a newly created resource in storage.
@@ -34,8 +38,15 @@ class jogoController extends Controller
     public function store(Request $request)
     {
         $jogo = new jogo();
-        $jogo->nome = $request->input("nome");
-        $jogo->time = $request->input("nome");
+        $jogo->time1 = $request->input("time1");
+        $jogo->time2 = $request->input("time2");
+        $jogo->foto1 = $request->input("foto1");
+        $jogo->foto2 = $request->input("foto2");
+        $jogo->horario = $request->input("horario");
+        $jogo->data = $request->input("data");
+        $jogo->estadio_id = $request->input("estadio_id");
+        $jogo->localizacao = $request->input("localizacao");
+        
         $jogo->save();
         return redirect()->route('jogos.index');
     }
