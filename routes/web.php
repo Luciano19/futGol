@@ -62,3 +62,7 @@ Route::get('/exercicio', function() {
     return view('exercicio');
 })->name('account');
 
+
+Route::resource('usuarios', 'usuarioController');
+Auth::routes();
+
